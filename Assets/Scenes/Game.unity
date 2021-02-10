@@ -8735,14 +8735,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7290237580702579828}
-  m_LocalRotation: {x: 0.000002562319, y: -0.00000017266451, z: 0.99655515, w: -0.082933}
+  m_LocalRotation: {x: -0.29784474, y: 0.024785653, z: -0.9510054, w: 0.07913952}
   m_LocalPosition: {x: 0.037578754, y: -0.031111099, z: 0.00000010393236}
   m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 0.9999995}
   m_Children:
   - {fileID: 932022908821986373}
   m_Father: {fileID: 6034606588871336379}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 34.78, z: -170.48601}
 --- !u!4 &305502347965682452
 Transform:
   m_ObjectHideFlags: 0
@@ -8840,7 +8840,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5054383060660405874}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 165064165203826040}
@@ -8933,14 +8933,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6803321208759939421}
-  m_LocalRotation: {x: -0.0000021473772, y: 0.00000089947605, z: 0.0022837091, w: 0.99999744}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0022863634, w: 0.9999974}
   m_LocalPosition: {x: -0.05055436, y: -0.0018886349, z: 0.00000014047383}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999964}
   m_Children:
   - {fileID: 6442629978734932296}
   m_Father: {fileID: 6034606588871336379}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.26200002}
 --- !u!137 &1351530808264545244
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
@@ -9609,6 +9609,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 629821882713842290}
+  - component: {fileID: 5054383060660405875}
   m_Layer: 0
   m_Name: Puppy
   m_TagString: Untagged
@@ -9616,6 +9617,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &5054383060660405875
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5054383060660405874}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9b58c4fb3ee39f34b96a99585c5c6ee5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &5171245761508562230
 Transform:
   m_ObjectHideFlags: 0
@@ -10145,7 +10165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 639c936731b70b94c94ee42fa471c3a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puppy1Animator: {fileID: 0}
+  puppy1Animator: {fileID: 5054383060660405875}
 --- !u!1 &7962085608583868309
 GameObject:
   m_ObjectHideFlags: 0
